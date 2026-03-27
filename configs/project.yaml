@@ -1,0 +1,53 @@
+project_name: seaad_graphsage_pre
+version: v1
+seed: 1729
+analysis:
+  default_regions:
+    - MTG
+    - A9
+  max_regions: 4
+  supported_regions:
+    - MTG
+    - A9
+    - CN
+    - STG
+    - HIP
+    - EC
+    - ITG
+    - V1C
+  modalities:
+    - snrna
+    - spatial
+  keep_only_multimodal_overlap: true
+  use_four_region_mode: false
+memory:
+  low_memory_mode: true
+  soft_ram_limit_gb: 6
+  chunk_size_cells: 20000
+  chunk_size_genes: 4000
+  force_backed_h5ad_above_gb: 1.0
+paths:
+  raw_dir: data/raw
+  interim_dir: data/interim
+  processed_dir: data/processed
+  manifest_dir: results/manifests
+  log_dir: results/logs
+  figure_dir: results/figures
+  run_manifest_path: results/manifests/run_manifest.tsv
+web:
+  base_page: https://brain-map.org/consortia/sea-ad/our-data
+  registry_page: https://registry.opendata.aws/allen-sea-ad-atlas/
+  timeout_seconds: 60
+  retries: 4
+  user_agent: seaad-graphsage-pre/1.0
+  max_auto_download_gb: 0.25
+  allow_large_downloads: false
+  download_suffix_allowlist:
+    - .tsv
+    - .csv
+    - .parquet
+    - .h5ad
+    - .h5mu
+    - .mtx
+    - .gz
+    - .zip

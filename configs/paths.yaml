@@ -1,0 +1,10 @@
+artifacts:
+  cohort_table: data/interim/seaad_cohort_table_v1.tsv
+  overlap_table: data/interim/seaad_donor_region_modality_overlap_v1.tsv
+  fetch_manifest: results/manifests/seaad_remote_file_manifest_v1.tsv
+  bucket_manifest: results/manifests/seaad_bucket_object_manifest_v1.tsv
+  download_manifest: results/manifests/seaad_download_status_v1.tsv
+  snrna_primary_manifest: data/interim/seaad_snrna_primary_input_manifest_v1.tsv
+  stage_status_manifest: results/manifests/seaad_stage_status_v1.tsv
+  figure_manifest: results/manifests/seaad_figure_manifest_v1.tsv
+  software_versions: results/manifests/software_versions_v1.tsv

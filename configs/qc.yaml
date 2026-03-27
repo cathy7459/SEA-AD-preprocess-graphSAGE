@@ -1,0 +1,30 @@
+snrna:
+  min_cells_per_donor_region: 100
+  min_genes_per_cell: 200
+  min_counts_per_cell: 500
+  max_pct_mt: 20.0
+  max_pct_hb: 5.0
+  max_pct_ribo: 60.0
+  min_cells_per_gene: 10
+  donor_relative_n_genes_floor_quantile: 0.02
+  donor_relative_n_counts_floor_quantile: 0.02
+  hvg_top_n: 3000
+  hvg_min_donor_votes: 2
+spatial:
+  min_transcripts_per_cell: 20
+  min_genes_per_cell: 10
+  min_segmentation_qc: 0.0
+  spatial_knn: 8
+  min_cells_per_section: 200
+  max_zero_transcript_fraction: 0.7
+  patch_size_um: 150.0
+  min_cells_per_patch: 5
+  patch_expression_dim: 32
+  outlier_zscore_threshold: 4.0
+  umap_sample_donors: 20
+  umap_max_nodes: 20000
+graph:
+  expression_knn: 12
+  spatial_knn: 8
+  expression_feature_dim: 64
+  max_cells_per_graph: 50000

@@ -1,0 +1,30 @@
+datasets:
+  - dataset_id: donor_metadata
+    display_name: SEA-AD donor metadata
+    modality: metadata
+    expected_keywords:
+      - donor metadata
+    source_page: https://brain-map.org/consortia/sea-ad/our-data
+  - dataset_id: processed_single_nucleus_rnaseq_and_atacseq
+    display_name: SEA-AD processed single nucleus RNAseq and ATAC-seq
+    modality: snrna
+    expected_keywords:
+      - processed single nucleus
+      - single nucleus rnaseq
+      - atac-seq
+    source_page: https://brain-map.org/consortia/sea-ad/our-data
+  - dataset_id: spatial_transcriptomics
+    display_name: SEA-AD spatial transcriptomics
+    modality: spatial
+    expected_keywords:
+      - spatial transcriptomics
+      - merfish
+      - xenium
+    source_page: https://brain-map.org/consortia/sea-ad/our-data
+  - dataset_id: microglial_annotated_multiregion_nuclei
+    display_name: SEA-AD microglial annotated multiregion nuclei
+    modality: snrna
+    expected_keywords:
+      - microglial annotated
+      - multiregion nuclei
+    source_page: https://brain-map.org/consortia/sea-ad/our-data
