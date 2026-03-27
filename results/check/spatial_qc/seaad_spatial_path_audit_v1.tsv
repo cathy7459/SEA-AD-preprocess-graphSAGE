@@ -1,0 +1,8 @@
+path	kind	exists	is_dir	is_file	readable	writable_parent
+data\raw	raw_dir	True	True	False	True	True
+data\interim\spatial_qc	spatial_qc_output_dir	True	True	False	True	True
+results\check\spatial_qc	spatial_qc_check_dir	True	True	False	True	True
+results\check\spatial_distribution	spatial_distribution_dir	True	True	False	True	True
+results\check\confounders	confounder_dir	True	True	False	True	True
+results\check\graph_inputs	graph_input_dir	True	True	False	True	True
+results\check\spatial_outlier	spatial_outlier_dir	True	True	False	True	True

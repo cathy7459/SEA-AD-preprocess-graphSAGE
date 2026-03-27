@@ -1,0 +1,4 @@
+label	n_groups	silhouette	interpretation	embedding_method	dominant_signal
+section_id	10	-0.16032705166915612	weak_or_mixed_signal	pca_fallback: PermissionError	section_id
+donor_id	10	-0.16032705166915612	weak_or_mixed_signal	pca_fallback: PermissionError	section_id
+region	1		not_evaluable	pca_fallback: PermissionError	section_id

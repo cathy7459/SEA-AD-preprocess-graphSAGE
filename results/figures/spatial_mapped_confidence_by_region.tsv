@@ -1,0 +1,71 @@
+obs_name	mapped_cell_type	mapped_confidence	mapping_status	mapping_note	donor_id	region	section_id	mapping_path	file_name
+		0.0	no_region_reference	No region-matched snRNA reference for region=CN	H19.33.004	CN	1417642334.0		
+		0.0	no_region_reference	No region-matched snRNA reference for region=CN	H19.33.004	CN	1417642340.0		
+		0.0	no_region_reference	No region-matched snRNA reference for region=CN	H19.33.004	CN	1417642343.0		
+		0.0	no_region_reference	No region-matched snRNA reference for region=CN	H20.33.001	CN	1417642733.0		
+		0.0	no_region_reference	No region-matched snRNA reference for region=CN	H20.33.001	CN	1417642736.0		
+		0.0	no_region_reference	No region-matched snRNA reference for region=CN	H20.33.001	CN	1417642739.0		
+		0.0	no_region_reference	No region-matched snRNA reference for region=CN	H20.33.001	CN	1417642742.0		
+		0.0	no_region_reference	No region-matched snRNA reference for region=CN	H20.33.012	CN	1417643096.0		
+		0.0	no_region_reference	No region-matched snRNA reference for region=CN	H20.33.012	CN	1417643099.0		
+		0.0	no_region_reference	No region-matched snRNA reference for region=CN	H20.33.012	CN	1417643108.0		
+		0.0	no_region_reference	No region-matched snRNA reference for region=CN	H20.33.012	CN	1417643111.0		
+		0.0	no_region_reference	No region-matched snRNA reference for region=CN	H20.33.017	CN	1417643356.0		
+		0.0	no_region_reference	No region-matched snRNA reference for region=CN	H20.33.017	CN	1417643359.0		
+		0.0	no_region_reference	No region-matched snRNA reference for region=CN	H20.33.017	CN	1417643362.0		
+		0.0	no_region_reference	No region-matched snRNA reference for region=CN	H20.33.017	CN	1417643365.0		
+		0.0	no_region_reference	No region-matched snRNA reference for region=CN	H20.33.026	CN	1417643939.0		
+		0.0	no_region_reference	No region-matched snRNA reference for region=CN	H20.33.026	CN	1417643942.0		
+		0.0	no_region_reference	No region-matched snRNA reference for region=CN	H20.33.026	CN	1417643951.0		
+		0.0	no_region_reference	No region-matched snRNA reference for region=CN	H20.33.026	CN	1417643954.0		
+		0.0	no_region_reference	No region-matched snRNA reference for region=CN	H20.33.031	CN	1417644664.0		
+		0.0	no_region_reference	No region-matched snRNA reference for region=CN	H20.33.031	CN	1417644667.0		
+		0.0	no_region_reference	No region-matched snRNA reference for region=CN	H20.33.031	CN	1417644670.0		
+		0.0	no_region_reference	No region-matched snRNA reference for region=CN	H20.33.031	CN	1417644673.0		
+		0.0	no_region_reference	No region-matched snRNA reference for region=CN	H21.33.002	CN	1417648780.0		
+		0.0	no_region_reference	No region-matched snRNA reference for region=CN	H21.33.002	CN	1417648783.0		
+		0.0	no_region_reference	No region-matched snRNA reference for region=CN	H21.33.002	CN	1417648792.0		
+		0.0	no_region_reference	No region-matched snRNA reference for region=CN	H21.33.002	CN	1417648795.0		
+		0.0	no_region_reference	No region-matched snRNA reference for region=CN	H21.33.004	CN	1417649139.0		
+		0.0	no_region_reference	No region-matched snRNA reference for region=CN	H21.33.004	CN	1417649142.0		
+		0.0	no_region_reference	No region-matched snRNA reference for region=CN	H21.33.027	CN	1417649441.0		
+		0.0	no_region_reference	No region-matched snRNA reference for region=CN	H21.33.027	CN	1417649444.0		
+		0.0	no_region_reference	No region-matched snRNA reference for region=CN	H21.33.027	CN	1417649447.0		
+		0.0	no_region_reference	No region-matched snRNA reference for region=CN	H21.33.027	CN	1417649450.0		
+		0.0	no_region_reference	No region-matched snRNA reference for region=CN	H21.33.038	CN	1417649873.0		
+		0.0	no_region_reference	No region-matched snRNA reference for region=CN	H21.33.038	CN	1417649876.0		
+								data\processed\spatial_mapping\seaad_spatial_CN_1417642334_mapped_v1.tsv	seaad_spatial_CN_1417642334_mapped_v1.tsv
+								data\processed\spatial_mapping\seaad_spatial_CN_1417642340_mapped_v1.tsv	seaad_spatial_CN_1417642340_mapped_v1.tsv
+								data\processed\spatial_mapping\seaad_spatial_CN_1417642343_mapped_v1.tsv	seaad_spatial_CN_1417642343_mapped_v1.tsv
+								data\processed\spatial_mapping\seaad_spatial_CN_1417642733_mapped_v1.tsv	seaad_spatial_CN_1417642733_mapped_v1.tsv
+								data\processed\spatial_mapping\seaad_spatial_CN_1417642736_mapped_v1.tsv	seaad_spatial_CN_1417642736_mapped_v1.tsv
+								data\processed\spatial_mapping\seaad_spatial_CN_1417642739_mapped_v1.tsv	seaad_spatial_CN_1417642739_mapped_v1.tsv
+								data\processed\spatial_mapping\seaad_spatial_CN_1417642742_mapped_v1.tsv	seaad_spatial_CN_1417642742_mapped_v1.tsv
+								data\processed\spatial_mapping\seaad_spatial_CN_1417643096_mapped_v1.tsv	seaad_spatial_CN_1417643096_mapped_v1.tsv
+								data\processed\spatial_mapping\seaad_spatial_CN_1417643099_mapped_v1.tsv	seaad_spatial_CN_1417643099_mapped_v1.tsv
+								data\processed\spatial_mapping\seaad_spatial_CN_1417643108_mapped_v1.tsv	seaad_spatial_CN_1417643108_mapped_v1.tsv
+								data\processed\spatial_mapping\seaad_spatial_CN_1417643111_mapped_v1.tsv	seaad_spatial_CN_1417643111_mapped_v1.tsv
+								data\processed\spatial_mapping\seaad_spatial_CN_1417643356_mapped_v1.tsv	seaad_spatial_CN_1417643356_mapped_v1.tsv
+								data\processed\spatial_mapping\seaad_spatial_CN_1417643359_mapped_v1.tsv	seaad_spatial_CN_1417643359_mapped_v1.tsv
+								data\processed\spatial_mapping\seaad_spatial_CN_1417643362_mapped_v1.tsv	seaad_spatial_CN_1417643362_mapped_v1.tsv
+								data\processed\spatial_mapping\seaad_spatial_CN_1417643365_mapped_v1.tsv	seaad_spatial_CN_1417643365_mapped_v1.tsv
+								data\processed\spatial_mapping\seaad_spatial_CN_1417643939_mapped_v1.tsv	seaad_spatial_CN_1417643939_mapped_v1.tsv
+								data\processed\spatial_mapping\seaad_spatial_CN_1417643942_mapped_v1.tsv	seaad_spatial_CN_1417643942_mapped_v1.tsv
+								data\processed\spatial_mapping\seaad_spatial_CN_1417643951_mapped_v1.tsv	seaad_spatial_CN_1417643951_mapped_v1.tsv
+								data\processed\spatial_mapping\seaad_spatial_CN_1417643954_mapped_v1.tsv	seaad_spatial_CN_1417643954_mapped_v1.tsv
+								data\processed\spatial_mapping\seaad_spatial_CN_1417644664_mapped_v1.tsv	seaad_spatial_CN_1417644664_mapped_v1.tsv
+								data\processed\spatial_mapping\seaad_spatial_CN_1417644667_mapped_v1.tsv	seaad_spatial_CN_1417644667_mapped_v1.tsv
+								data\processed\spatial_mapping\seaad_spatial_CN_1417644670_mapped_v1.tsv	seaad_spatial_CN_1417644670_mapped_v1.tsv
+								data\processed\spatial_mapping\seaad_spatial_CN_1417644673_mapped_v1.tsv	seaad_spatial_CN_1417644673_mapped_v1.tsv
+								data\processed\spatial_mapping\seaad_spatial_CN_1417648780_mapped_v1.tsv	seaad_spatial_CN_1417648780_mapped_v1.tsv
+								data\processed\spatial_mapping\seaad_spatial_CN_1417648783_mapped_v1.tsv	seaad_spatial_CN_1417648783_mapped_v1.tsv
+								data\processed\spatial_mapping\seaad_spatial_CN_1417648792_mapped_v1.tsv	seaad_spatial_CN_1417648792_mapped_v1.tsv
+								data\processed\spatial_mapping\seaad_spatial_CN_1417648795_mapped_v1.tsv	seaad_spatial_CN_1417648795_mapped_v1.tsv
+								data\processed\spatial_mapping\seaad_spatial_CN_1417649139_mapped_v1.tsv	seaad_spatial_CN_1417649139_mapped_v1.tsv
+								data\processed\spatial_mapping\seaad_spatial_CN_1417649142_mapped_v1.tsv	seaad_spatial_CN_1417649142_mapped_v1.tsv
+								data\processed\spatial_mapping\seaad_spatial_CN_1417649441_mapped_v1.tsv	seaad_spatial_CN_1417649441_mapped_v1.tsv
+								data\processed\spatial_mapping\seaad_spatial_CN_1417649444_mapped_v1.tsv	seaad_spatial_CN_1417649444_mapped_v1.tsv
+								data\processed\spatial_mapping\seaad_spatial_CN_1417649447_mapped_v1.tsv	seaad_spatial_CN_1417649447_mapped_v1.tsv
+								data\processed\spatial_mapping\seaad_spatial_CN_1417649450_mapped_v1.tsv	seaad_spatial_CN_1417649450_mapped_v1.tsv
+								data\processed\spatial_mapping\seaad_spatial_CN_1417649873_mapped_v1.tsv	seaad_spatial_CN_1417649873_mapped_v1.tsv
+								data\processed\spatial_mapping\seaad_spatial_CN_1417649876_mapped_v1.tsv	seaad_spatial_CN_1417649876_mapped_v1.tsv

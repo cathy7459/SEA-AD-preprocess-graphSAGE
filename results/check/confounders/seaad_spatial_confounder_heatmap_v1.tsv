@@ -1,0 +1,17 @@
+feature	correlated_with	correlation
+retained_fraction	retained_fraction	1.0
+median_n_transcripts	retained_fraction	0.6836474433155573
+median_n_genes	retained_fraction	0.7523682625297355
+zero_transcript_fraction	retained_fraction	-0.3334406471939776
+retained_fraction	median_n_transcripts	0.6836474433155573
+median_n_transcripts	median_n_transcripts	1.0
+median_n_genes	median_n_transcripts	0.9862859449849548
+zero_transcript_fraction	median_n_transcripts	-0.1126979626771059
+retained_fraction	median_n_genes	0.7523682625297355
+median_n_transcripts	median_n_genes	0.9862859449849548
+median_n_genes	median_n_genes	1.0
+zero_transcript_fraction	median_n_genes	-0.1119546285071301
+retained_fraction	zero_transcript_fraction	-0.3334406471939776
+median_n_transcripts	zero_transcript_fraction	-0.1126979626771059
+median_n_genes	zero_transcript_fraction	-0.1119546285071301
+zero_transcript_fraction	zero_transcript_fraction	1.0

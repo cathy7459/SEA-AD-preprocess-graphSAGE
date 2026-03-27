@@ -1,0 +1,13 @@
+stage_name	status	message	n_inputs	n_outputs
+01_fetch_or_manifest_data	success	Built landing-page manifest, bucket object manifest, download-status manifest, and explicit primary snRNA input manifest. Ran in offline manifest-reuse mode.	0	2766
+02_split_by_region	success	Built region inventories from manifests and local files.	5597	3
+03_snrna_qc	success	snRNA donor-region QC completed.	30	61
+04_snrna_normalize	success	Normalized snRNA donor-region objects and computed HVG vote tables.	30	62
+05_snrna_annotate	success	Annotated normalized snRNA objects or wrote explicit annotation templates.	30	60
+06_spatial_qc	success	Spatial QC now uses Xenium cell_feature_matrix + cells tables as primary section inputs, with explicit path audits and anomaly reports.	35	81
+07_spatial_map_to_snrna	success	Spatial mapping writes explicit section-level cell-type assignments or an explicit no-reference status.	35	36
+08_build_local_graphs	success	Built graph-ready artifacts: node metadata, node features, edge tables, and serialized payloads for snRNA cells and spatial patches.	65	326
+09_aggregate_patient_features	success	Aggregated graph and composition summaries into patient-level features.	80	5
+10_prepare_graphsage_inputs	success	Prepared GraphSAGE manifests from available graph and patient artifacts.	205	2
+11_qc_report_and_plots	success	Generated QC plots, graph-input diagnostics, outlier summaries, and donor-sampled spatial embedding checks.	0	30
+12_audit_snrna_pipeline	success	Generated snRNA audit tables and markdown summary under results/check.	30	7

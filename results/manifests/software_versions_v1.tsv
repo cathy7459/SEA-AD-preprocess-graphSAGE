@@ -1,0 +1,6 @@
+package	version
+anndata	0.12.10
+scanpy	1.11.5
+numpy	2.4.3
+pandas	2.3.3
+torch	2.11.0

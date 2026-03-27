@@ -1,0 +1,3 @@
+dataset_id	include_or_exclude	reasoning
+microglial_annotated_multiregion_nuclei	exclude_for_now	Not locally downloadable in the current run; only a landing-page placeholder is present, so it cannot be reproducibly incorporated now.
+processed_single_nucleus_rnaseq_and_atacseq	include_rnaseq_only	Downloaded donor-level RNAseq objects are present for MTG (23) and A9 (7), with diagnosis labels observed as ['dementia', 'no_dementia', 'reference']. This supports graph modeling and region-matched multimodal integration, but ATAC objects should be excluded from the snRNA pipeline.

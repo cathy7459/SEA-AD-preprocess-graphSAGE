@@ -1,0 +1,7 @@
+stage	status	observation	code_location
+download_manifest	mixed	snRNA family includes RNAseq and ATACseq objects; microglial dataset remains manual-download-only.	scripts/01_fetch_or_manifest_data.py
+region_inventory	bug_detected	Original region split inferred snRNA regions only from simple path tokens and did not distinguish RNAseq from ATACseq robustly.	scripts/02_split_by_region.py
+snrna_qc_loading	bug_detected	Original QC loader globbed every non-spatial .h5ad, so ATAC donor objects were eligible for snRNA QC.	scripts/03_snrna_qc.py
+metadata_mapping	bug_detected	Original donor and region column matching missed 'Donor ID' and 'Brain Region', causing donor/region to collapse to unknown and risking duplicate region processing.	scripts/03_snrna_qc.py
+retained_outputs	observed	30 of 30 downloaded RNAseq donor objects currently have QC outputs.	data/interim/snrna_qc
+used_outputs	observed	30 donor objects currently propagate to normalized or annotated outputs.	data/processed/snrna_normalized; data/processed/snrna_annotated

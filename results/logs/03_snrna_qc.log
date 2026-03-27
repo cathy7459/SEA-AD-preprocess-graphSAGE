@@ -1,0 +1,60 @@
+2026-03-27 17:37:38,446 | INFO | 03_snrna_qc | QC processing data\raw\processed_single_nucleus_rnaseq_and_atacseq\MTG\RNAseq\donor_objects\H20.33.008_SEAAD_MTG_RNAseq_final-nuclei.2024-02-13.h5ad
+2026-03-27 17:37:43,901 | INFO | 03_snrna_qc | Loaded H20.33.008_SEAAD_MTG_RNAseq_final-nuclei.2024-02-13.h5ad with 10412 cells, 36601 genes, donor(s)=H20.33.008, region(s)=MTG, diagnosis=no_dementia
+2026-03-27 17:37:50,021 | INFO | 03_snrna_qc | QC processing data\raw\processed_single_nucleus_rnaseq_and_atacseq\MTG\RNAseq\donor_objects\H20.33.026_SEAAD_MTG_RNAseq_final-nuclei.2024-02-13.h5ad
+2026-03-27 17:37:55,223 | INFO | 03_snrna_qc | Loaded H20.33.026_SEAAD_MTG_RNAseq_final-nuclei.2024-02-13.h5ad with 6770 cells, 36601 genes, donor(s)=H20.33.026, region(s)=MTG, diagnosis=dementia
+2026-03-27 17:38:01,456 | INFO | 03_snrna_qc | QC processing data\raw\processed_single_nucleus_rnaseq_and_atacseq\MTG\RNAseq\donor_objects\H20.33.028_SEAAD_MTG_RNAseq_final-nuclei.2024-02-13.h5ad
+2026-03-27 17:38:06,057 | INFO | 03_snrna_qc | Loaded H20.33.028_SEAAD_MTG_RNAseq_final-nuclei.2024-02-13.h5ad with 9188 cells, 36601 genes, donor(s)=H20.33.028, region(s)=MTG, diagnosis=dementia
+2026-03-27 17:38:10,993 | INFO | 03_snrna_qc | QC processing data\raw\processed_single_nucleus_rnaseq_and_atacseq\MTG\RNAseq\donor_objects\H20.33.033_SEAAD_MTG_RNAseq_final-nuclei.2024-02-13.h5ad
+2026-03-27 17:38:13,637 | INFO | 03_snrna_qc | Loaded H20.33.033_SEAAD_MTG_RNAseq_final-nuclei.2024-02-13.h5ad with 5227 cells, 36601 genes, donor(s)=H20.33.033, region(s)=MTG, diagnosis=dementia
+2026-03-27 17:38:16,660 | INFO | 03_snrna_qc | QC processing data\raw\processed_single_nucleus_rnaseq_and_atacseq\MTG\RNAseq\donor_objects\H20.33.035_SEAAD_MTG_RNAseq_final-nuclei.2024-02-13.h5ad
+2026-03-27 17:38:23,532 | INFO | 03_snrna_qc | Loaded H20.33.035_SEAAD_MTG_RNAseq_final-nuclei.2024-02-13.h5ad with 8454 cells, 36601 genes, donor(s)=H20.33.035, region(s)=MTG, diagnosis=no_dementia
+2026-03-27 17:38:28,804 | INFO | 03_snrna_qc | QC processing data\raw\processed_single_nucleus_rnaseq_and_atacseq\MTG\RNAseq\donor_objects\H20.33.036_SEAAD_MTG_RNAseq_final-nuclei.2024-02-13.h5ad
+2026-03-27 17:38:32,346 | INFO | 03_snrna_qc | Loaded H20.33.036_SEAAD_MTG_RNAseq_final-nuclei.2024-02-13.h5ad with 6186 cells, 36601 genes, donor(s)=H20.33.036, region(s)=MTG, diagnosis=no_dementia
+2026-03-27 17:38:35,359 | INFO | 03_snrna_qc | QC processing data\raw\processed_single_nucleus_rnaseq_and_atacseq\MTG\RNAseq\donor_objects\H20.33.037_SEAAD_MTG_RNAseq_final-nuclei.2024-02-13.h5ad
+2026-03-27 17:38:38,038 | INFO | 03_snrna_qc | Loaded H20.33.037_SEAAD_MTG_RNAseq_final-nuclei.2024-02-13.h5ad with 5778 cells, 36601 genes, donor(s)=H20.33.037, region(s)=MTG, diagnosis=dementia
+2026-03-27 17:38:40,722 | INFO | 03_snrna_qc | QC processing data\raw\processed_single_nucleus_rnaseq_and_atacseq\MTG\RNAseq\donor_objects\H20.33.038_SEAAD_MTG_RNAseq_final-nuclei.2024-02-13.h5ad
+2026-03-27 17:38:42,671 | INFO | 03_snrna_qc | Loaded H20.33.038_SEAAD_MTG_RNAseq_final-nuclei.2024-02-13.h5ad with 3357 cells, 36601 genes, donor(s)=H20.33.038, region(s)=MTG, diagnosis=dementia
+2026-03-27 17:38:44,874 | INFO | 03_snrna_qc | QC processing data\raw\processed_single_nucleus_rnaseq_and_atacseq\MTG\RNAseq\donor_objects\H20.33.045_SEAAD_MTG_RNAseq_final-nuclei.2024-02-13.h5ad
+2026-03-27 17:38:48,970 | INFO | 03_snrna_qc | Loaded H20.33.045_SEAAD_MTG_RNAseq_final-nuclei.2024-02-13.h5ad with 8173 cells, 36601 genes, donor(s)=H20.33.045, region(s)=MTG, diagnosis=dementia
+2026-03-27 17:38:53,108 | INFO | 03_snrna_qc | QC processing data\raw\processed_single_nucleus_rnaseq_and_atacseq\MTG\RNAseq\donor_objects\H200.1023_SEAAD_MTG_RNAseq_final-nuclei.2024-02-13.h5ad
+2026-03-27 17:38:58,037 | INFO | 03_snrna_qc | Loaded H200.1023_SEAAD_MTG_RNAseq_final-nuclei.2024-02-13.h5ad with 6479 cells, 36601 genes, donor(s)=H200.1023, region(s)=MTG, diagnosis=reference
+2026-03-27 17:39:02,222 | INFO | 03_snrna_qc | QC processing data\raw\processed_single_nucleus_rnaseq_and_atacseq\MTG\RNAseq\donor_objects\H21.33.009_SEAAD_MTG_RNAseq_final-nuclei.2024-02-13.h5ad
+2026-03-27 17:39:07,597 | INFO | 03_snrna_qc | Loaded H21.33.009_SEAAD_MTG_RNAseq_final-nuclei.2024-02-13.h5ad with 11936 cells, 36601 genes, donor(s)=H21.33.009, region(s)=MTG, diagnosis=dementia
+2026-03-27 17:39:12,918 | INFO | 03_snrna_qc | QC processing data\raw\processed_single_nucleus_rnaseq_and_atacseq\MTG\RNAseq\donor_objects\H21.33.017_SEAAD_MTG_RNAseq_final-nuclei.2024-02-13.h5ad
+2026-03-27 17:39:17,939 | INFO | 03_snrna_qc | Loaded H21.33.017_SEAAD_MTG_RNAseq_final-nuclei.2024-02-13.h5ad with 8336 cells, 36601 genes, donor(s)=H21.33.017, region(s)=MTG, diagnosis=dementia
+2026-03-27 17:39:22,080 | INFO | 03_snrna_qc | QC processing data\raw\processed_single_nucleus_rnaseq_and_atacseq\MTG\RNAseq\donor_objects\H21.33.020_SEAAD_MTG_RNAseq_final-nuclei.2024-02-13.h5ad
+2026-03-27 17:39:23,287 | INFO | 03_snrna_qc | Loaded H21.33.020_SEAAD_MTG_RNAseq_final-nuclei.2024-02-13.h5ad with 1837 cells, 36601 genes, donor(s)=H21.33.020, region(s)=MTG, diagnosis=dementia
+2026-03-27 17:39:24,733 | INFO | 03_snrna_qc | QC processing data\raw\processed_single_nucleus_rnaseq_and_atacseq\MTG\RNAseq\donor_objects\H21.33.026_SEAAD_MTG_RNAseq_final-nuclei.2024-02-13.h5ad
+2026-03-27 17:39:30,949 | INFO | 03_snrna_qc | Loaded H21.33.026_SEAAD_MTG_RNAseq_final-nuclei.2024-02-13.h5ad with 10863 cells, 36601 genes, donor(s)=H21.33.026, region(s)=MTG, diagnosis=no_dementia
+2026-03-27 17:39:37,260 | INFO | 03_snrna_qc | QC processing data\raw\processed_single_nucleus_rnaseq_and_atacseq\MTG\RNAseq\donor_objects\H21.33.029_SEAAD_MTG_RNAseq_final-nuclei.2024-02-13.h5ad
+2026-03-27 17:39:43,656 | INFO | 03_snrna_qc | Loaded H21.33.029_SEAAD_MTG_RNAseq_final-nuclei.2024-02-13.h5ad with 8748 cells, 36601 genes, donor(s)=H21.33.029, region(s)=MTG, diagnosis=dementia
+2026-03-27 17:39:49,269 | INFO | 03_snrna_qc | QC processing data\raw\processed_single_nucleus_rnaseq_and_atacseq\MTG\RNAseq\donor_objects\H21.33.033_SEAAD_MTG_RNAseq_final-nuclei.2024-02-13.h5ad
+2026-03-27 17:39:52,506 | INFO | 03_snrna_qc | Loaded H21.33.033_SEAAD_MTG_RNAseq_final-nuclei.2024-02-13.h5ad with 6464 cells, 36601 genes, donor(s)=H21.33.033, region(s)=MTG, diagnosis=no_dementia
+2026-03-27 17:39:55,716 | INFO | 03_snrna_qc | QC processing data\raw\processed_single_nucleus_rnaseq_and_atacseq\MTG\RNAseq\donor_objects\H21.33.034_SEAAD_MTG_RNAseq_final-nuclei.2024-02-13.h5ad
+2026-03-27 17:39:57,384 | INFO | 03_snrna_qc | Loaded H21.33.034_SEAAD_MTG_RNAseq_final-nuclei.2024-02-13.h5ad with 3447 cells, 36601 genes, donor(s)=H21.33.034, region(s)=MTG, diagnosis=dementia
+2026-03-27 17:39:59,294 | INFO | 03_snrna_qc | QC processing data\raw\processed_single_nucleus_rnaseq_and_atacseq\MTG\RNAseq\donor_objects\H21.33.037_SEAAD_MTG_RNAseq_final-nuclei.2024-02-13.h5ad
+2026-03-27 17:40:05,256 | INFO | 03_snrna_qc | Loaded H21.33.037_SEAAD_MTG_RNAseq_final-nuclei.2024-02-13.h5ad with 8170 cells, 36601 genes, donor(s)=H21.33.037, region(s)=MTG, diagnosis=no_dementia
+2026-03-27 17:40:13,259 | INFO | 03_snrna_qc | QC processing data\raw\processed_single_nucleus_rnaseq_and_atacseq\MTG\RNAseq\donor_objects\H21.33.038_SEAAD_MTG_RNAseq_final-nuclei.2024-02-13.h5ad
+2026-03-27 17:40:17,660 | INFO | 03_snrna_qc | Loaded H21.33.038_SEAAD_MTG_RNAseq_final-nuclei.2024-02-13.h5ad with 7307 cells, 36601 genes, donor(s)=H21.33.038, region(s)=MTG, diagnosis=no_dementia
+2026-03-27 17:40:22,127 | INFO | 03_snrna_qc | QC processing data\raw\processed_single_nucleus_rnaseq_and_atacseq\MTG\RNAseq\donor_objects\H21.33.039_SEAAD_MTG_RNAseq_final-nuclei.2024-02-13.h5ad
+2026-03-27 17:40:28,342 | INFO | 03_snrna_qc | Loaded H21.33.039_SEAAD_MTG_RNAseq_final-nuclei.2024-02-13.h5ad with 9024 cells, 36601 genes, donor(s)=H21.33.039, region(s)=MTG, diagnosis=dementia
+2026-03-27 17:40:38,346 | INFO | 03_snrna_qc | QC processing data\raw\processed_single_nucleus_rnaseq_and_atacseq\MTG\RNAseq\donor_objects\H21.33.044_SEAAD_MTG_RNAseq_final-nuclei.2024-02-13.h5ad
+2026-03-27 17:40:42,145 | INFO | 03_snrna_qc | Loaded H21.33.044_SEAAD_MTG_RNAseq_final-nuclei.2024-02-13.h5ad with 6269 cells, 36601 genes, donor(s)=H21.33.044, region(s)=MTG, diagnosis=dementia
+2026-03-27 17:40:45,652 | INFO | 03_snrna_qc | QC processing data\raw\processed_single_nucleus_rnaseq_and_atacseq\MTG\RNAseq\donor_objects\H21.33.045_SEAAD_MTG_RNAseq_final-nuclei.2024-02-13.h5ad
+2026-03-27 17:40:50,270 | INFO | 03_snrna_qc | Loaded H21.33.045_SEAAD_MTG_RNAseq_final-nuclei.2024-02-13.h5ad with 6839 cells, 36601 genes, donor(s)=H21.33.045, region(s)=MTG, diagnosis=dementia
+2026-03-27 17:40:54,015 | INFO | 03_snrna_qc | QC processing data\raw\processed_single_nucleus_rnaseq_and_atacseq\MTG\RNAseq\donor_objects\H21.33.046_SEAAD_MTG_RNAseq_final-nuclei.2024-02-13.h5ad
+2026-03-27 17:40:58,801 | INFO | 03_snrna_qc | Loaded H21.33.046_SEAAD_MTG_RNAseq_final-nuclei.2024-02-13.h5ad with 5693 cells, 36601 genes, donor(s)=H21.33.046, region(s)=MTG, diagnosis=dementia
+2026-03-27 17:41:02,170 | INFO | 03_snrna_qc | QC processing data\raw\processed_single_nucleus_rnaseq_and_atacseq\PFC\RNAseq\donor_objects\H20.33.028_SEAAD_A9_RNAseq_final-nuclei.2024-02-13.h5ad
+2026-03-27 17:41:08,291 | INFO | 03_snrna_qc | Loaded H20.33.028_SEAAD_A9_RNAseq_final-nuclei.2024-02-13.h5ad with 9886 cells, 36601 genes, donor(s)=H20.33.028, region(s)=A9, diagnosis=dementia
+2026-03-27 17:41:12,464 | INFO | 03_snrna_qc | QC processing data\raw\processed_single_nucleus_rnaseq_and_atacseq\PFC\RNAseq\donor_objects\H20.33.036_SEAAD_A9_RNAseq_final-nuclei.2024-02-13.h5ad
+2026-03-27 17:41:19,478 | INFO | 03_snrna_qc | Loaded H20.33.036_SEAAD_A9_RNAseq_final-nuclei.2024-02-13.h5ad with 9679 cells, 36601 genes, donor(s)=H20.33.036, region(s)=A9, diagnosis=no_dementia
+2026-03-27 17:41:31,883 | INFO | 03_snrna_qc | QC processing data\raw\processed_single_nucleus_rnaseq_and_atacseq\PFC\RNAseq\donor_objects\H20.33.038_SEAAD_A9_RNAseq_final-nuclei.2024-02-13.h5ad
+2026-03-27 17:41:36,038 | INFO | 03_snrna_qc | Loaded H20.33.038_SEAAD_A9_RNAseq_final-nuclei.2024-02-13.h5ad with 8695 cells, 36601 genes, donor(s)=H20.33.038, region(s)=A9, diagnosis=dementia
+2026-03-27 17:41:44,606 | INFO | 03_snrna_qc | QC processing data\raw\processed_single_nucleus_rnaseq_and_atacseq\PFC\RNAseq\donor_objects\H21.33.020_SEAAD_A9_RNAseq_final-nuclei.2024-02-13.h5ad
+2026-03-27 17:41:46,442 | INFO | 03_snrna_qc | Loaded H21.33.020_SEAAD_A9_RNAseq_final-nuclei.2024-02-13.h5ad with 3272 cells, 36601 genes, donor(s)=H21.33.020, region(s)=A9, diagnosis=dementia
+2026-03-27 17:41:48,552 | INFO | 03_snrna_qc | QC processing data\raw\processed_single_nucleus_rnaseq_and_atacseq\PFC\RNAseq\donor_objects\H21.33.034_SEAAD_A9_RNAseq_final-nuclei.2024-02-13.h5ad
+2026-03-27 17:41:51,087 | INFO | 03_snrna_qc | Loaded H21.33.034_SEAAD_A9_RNAseq_final-nuclei.2024-02-13.h5ad with 4952 cells, 36601 genes, donor(s)=H21.33.034, region(s)=A9, diagnosis=dementia
+2026-03-27 17:41:53,365 | INFO | 03_snrna_qc | QC processing data\raw\processed_single_nucleus_rnaseq_and_atacseq\PFC\RNAseq\donor_objects\H21.33.044_SEAAD_A9_RNAseq_final-nuclei.2024-02-13.h5ad
+2026-03-27 17:41:59,711 | INFO | 03_snrna_qc | Loaded H21.33.044_SEAAD_A9_RNAseq_final-nuclei.2024-02-13.h5ad with 9759 cells, 36601 genes, donor(s)=H21.33.044, region(s)=A9, diagnosis=dementia
+2026-03-27 17:42:16,246 | INFO | 03_snrna_qc | QC processing data\raw\processed_single_nucleus_rnaseq_and_atacseq\PFC\RNAseq\donor_objects\H21.33.045_SEAAD_A9_RNAseq_final-nuclei.2024-02-13.h5ad
+2026-03-27 17:42:21,210 | INFO | 03_snrna_qc | Loaded H21.33.045_SEAAD_A9_RNAseq_final-nuclei.2024-02-13.h5ad with 9284 cells, 36601 genes, donor(s)=H21.33.045, region(s)=A9, diagnosis=dementia

@@ -1,0 +1,31 @@
+file_name	raw_metadata_label	normalized_label	used_in_downstream_analysis
+H20.33.026_SEAAD_MTG_RNAseq_final-nuclei.2024-02-13.h5ad	Dementia	dementia	1
+H20.33.028_SEAAD_A9_RNAseq_final-nuclei.2024-02-13.h5ad	Dementia	dementia	1
+H20.33.028_SEAAD_MTG_RNAseq_final-nuclei.2024-02-13.h5ad	Dementia	dementia	1
+H20.33.033_SEAAD_MTG_RNAseq_final-nuclei.2024-02-13.h5ad	Dementia	dementia	1
+H20.33.037_SEAAD_MTG_RNAseq_final-nuclei.2024-02-13.h5ad	Dementia	dementia	1
+H20.33.038_SEAAD_A9_RNAseq_final-nuclei.2024-02-13.h5ad	Dementia	dementia	1
+H20.33.038_SEAAD_MTG_RNAseq_final-nuclei.2024-02-13.h5ad	Dementia	dementia	1
+H20.33.045_SEAAD_MTG_RNAseq_final-nuclei.2024-02-13.h5ad	Dementia	dementia	1
+H21.33.009_SEAAD_MTG_RNAseq_final-nuclei.2024-02-13.h5ad	Dementia	dementia	1
+H21.33.017_SEAAD_MTG_RNAseq_final-nuclei.2024-02-13.h5ad	Dementia	dementia	1
+H21.33.020_SEAAD_A9_RNAseq_final-nuclei.2024-02-13.h5ad	Dementia	dementia	1
+H21.33.020_SEAAD_MTG_RNAseq_final-nuclei.2024-02-13.h5ad	Dementia	dementia	1
+H21.33.029_SEAAD_MTG_RNAseq_final-nuclei.2024-02-13.h5ad	Dementia	dementia	1
+H21.33.034_SEAAD_A9_RNAseq_final-nuclei.2024-02-13.h5ad	Dementia	dementia	1
+H21.33.034_SEAAD_MTG_RNAseq_final-nuclei.2024-02-13.h5ad	Dementia	dementia	1
+H21.33.039_SEAAD_MTG_RNAseq_final-nuclei.2024-02-13.h5ad	Dementia	dementia	1
+H21.33.044_SEAAD_A9_RNAseq_final-nuclei.2024-02-13.h5ad	Dementia	dementia	1
+H21.33.044_SEAAD_MTG_RNAseq_final-nuclei.2024-02-13.h5ad	Dementia	dementia	1
+H21.33.045_SEAAD_A9_RNAseq_final-nuclei.2024-02-13.h5ad	Dementia	dementia	1
+H21.33.045_SEAAD_MTG_RNAseq_final-nuclei.2024-02-13.h5ad	Dementia	dementia	1
+H21.33.046_SEAAD_MTG_RNAseq_final-nuclei.2024-02-13.h5ad	Dementia	dementia	1
+H20.33.008_SEAAD_MTG_RNAseq_final-nuclei.2024-02-13.h5ad	No dementia	no_dementia	1
+H20.33.035_SEAAD_MTG_RNAseq_final-nuclei.2024-02-13.h5ad	No dementia	no_dementia	1
+H20.33.036_SEAAD_A9_RNAseq_final-nuclei.2024-02-13.h5ad	No dementia	no_dementia	1
+H20.33.036_SEAAD_MTG_RNAseq_final-nuclei.2024-02-13.h5ad	No dementia	no_dementia	1
+H21.33.026_SEAAD_MTG_RNAseq_final-nuclei.2024-02-13.h5ad	No dementia	no_dementia	1
+H21.33.033_SEAAD_MTG_RNAseq_final-nuclei.2024-02-13.h5ad	No dementia	no_dementia	1
+H21.33.037_SEAAD_MTG_RNAseq_final-nuclei.2024-02-13.h5ad	No dementia	no_dementia	1
+H21.33.038_SEAAD_MTG_RNAseq_final-nuclei.2024-02-13.h5ad	No dementia	no_dementia	1
+H200.1023_SEAAD_MTG_RNAseq_final-nuclei.2024-02-13.h5ad	Reference	reference	1
