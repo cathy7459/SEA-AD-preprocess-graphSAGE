@@ -40,61 +40,66 @@ When the official source exposes a direct downloadable object URL, the pipeline 
 
 ```text
 .
-├── README.md
-├── requirements.txt
-├── environment/
-│   └── environment.yml
-├── configs/
-│   ├── project.yaml
-│   ├── qc.yaml
-│   ├── paths.yaml
-│   └── datasets.yaml
-├── data/
-│   ├── raw/
-│   ├── interim/
-│   └── processed/
-├── docs/
-│   ├── pipeline.md
-│   └── reproducibility.md
-├── notebooks/
-│   ├── 00_data_inventory.ipynb
-│   ├── 01_qc_exploration.ipynb
-│   ├── 02_annotation_check.ipynb
-│   ├── 03_spatial_mapping_check.ipynb
-│   └── 04_graph_summary_review.ipynb
-├── results/
-│   ├── figures/
-│   ├── logs/
-│   └── manifests/
-├── scripts/
-│   ├── 00_build_cohort_table.py
-│   ├── 01_fetch_or_manifest_data.py
-│   ├── 02_split_by_region.py
-│   ├── 03_snrna_qc.py
-│   ├── 04_snrna_normalize.py
-│   ├── 05_snrna_annotate.py
-│   ├── 06_spatial_qc.py
-│   ├── 07_spatial_map_to_snrna.py
-│   ├── 08_build_local_graphs.py
-│   ├── 09_aggregate_patient_features.py
-│   ├── 10_prepare_graphsage_inputs.py
-│   └── 11_qc_report_and_plots.py
-└── src/
-    ├── ann_utils.py
-    ├── config_utils.py
-    ├── graph_utils.py
-    ├── io_utils.py
-    ├── logging_utils.py
-    ├── naming.py
-    ├── patient_utils.py
-    ├── plotting.py
-    ├── qc_utils.py
-    ├── report_utils.py
-    ├── seaad_manifest_utils.py
-    ├── spatial_utils.py
-    ├── taxonomy_utils.py
-    ├── web_fetch_utils.py
-    └── datasets/
+|- README.md
+|- LICENSE
+|- .gitignore
+|- requirements.txt
+|- environment/
+|  |- environment.yml
+|- configs/
+|  |- project.yaml
+|  |- qc.yaml
+|  |- paths.yaml
+|  |- datasets.yaml
+|- data/
+|  |- raw/
+|  |- interim/
+|  |- processed/
+|- docs/
+|  |- pipeline.md
+|  |- reproducibility.md
+|- notebooks/
+|  |- 00_data_inventory.ipynb
+|  |- 01_qc_exploration.ipynb
+|  |- 02_annotation_check.ipynb
+|  |- 03_spatial_mapping_check.ipynb
+|  |- 04_graph_summary_review.ipynb
+|- results/
+|  |- figures/
+|  |- logs/
+|  |- manifests/
+|- scripts/
+|  |- 00_build_cohort_table.py
+|  |- 01_fetch_or_manifest_data.py
+|  |- 02_split_by_region.py
+|  |- 03_snrna_qc.py
+|  |- 04_snrna_normalize.py
+|  |- 05_snrna_annotate.py
+|  |- 06_spatial_qc.py
+|  |- 07_spatial_map_to_snrna.py
+|  |- 08_build_local_graphs.py
+|  |- 09_aggregate_patient_features.py
+|  |- 10_prepare_graphsage_inputs.py
+|  |- 11_qc_report_and_plots.py
+|  |- 12_audit_snrna_pipeline.py
+|- src/
+   |- ann_utils.py
+   |- config_utils.py
+   |- graph_utils.py
+   |- io_utils.py
+   |- logging_utils.py
+   |- naming.py
+   |- patient_utils.py
+   |- path_audit_utils.py
+   |- plotting.py
+   |- qc_utils.py
+   |- report_utils.py
+   |- seaad_manifest_utils.py
+   |- snrna_utils.py
+   |- spatial_utils.py
+   |- taxonomy_utils.py
+   |- web_fetch_utils.py
+   |- datasets/
 ```
 
 ## Environment setup
@@ -110,7 +115,6 @@ Pip:
 
 ```bash
 python -m venv .venv
-. .venv/bin/activate
 pip install -r requirements.txt
 ```
 
@@ -131,11 +135,7 @@ python scripts/10_prepare_graphsage_inputs.py --config configs/project.yaml
 python scripts/11_qc_report_and_plots.py --config configs/project.yaml
 ```
 
-Each script is restartable and skips completed outputs unless `--overwrite` is supplied.
-
 ## Expected outputs
-
-Representative outputs include:
 
 - cohort and overlap tables
 - download and source manifests
@@ -148,19 +148,6 @@ Representative outputs include:
 - patient-level aggregated feature matrix
 - QC figures and their underlying source tables
 
-File naming follows:
-
-```text
-{project}_{modality}_{region}_{unit}_{stage}_{version}.{ext}
-```
-
-Examples:
-
-- `seaad_snrna_MTG_donor-012_qc.h5ad`
-- `seaad_spatial_MTG_section-03_qc.parquet`
-- `seaad_graph_MTG_donor-012_cellgraph_v1.pt`
-- `seaad_patient_overlap2regions_features_v1.parquet`
-
 ## Reproducibility notes
 
 - The pipeline records software versions, seeds, input manifests, and run metadata under `results/manifests/`.
@@ -172,16 +159,14 @@ Examples:
 
 - Some official SEA-AD resources are controlled-access or exposed only via landing pages. These are captured in manifests and not silently ignored.
 - Exact taxonomy transfer may require external references or services not always feasible on a laptop. The annotation stage therefore supports direct mapping when available and otherwise writes a pluggable expected-input format.
-- Spatial file formats vary across MERFISH and Xenium releases; the loader is defensive and extension-driven, but some releases may still require schema-specific adapters.
+- Spatial file formats vary across releases; the loader is defensive and focused on robust Xenium-style section inputs.
 
 ## Extending to GraphSAGE training
 
-The output of `10_prepare_graphsage_inputs.py` is intended to feed a later modeling repository. A typical extension would:
+The output of `10_prepare_graphsage_inputs.py` is intended to feed a later modeling workflow. A typical extension would:
 
 1. load donor-region graphs,
-2. train a GraphSAGE encoder at the cell level,
+2. train a GraphSAGE encoder at the cell or patch level,
 3. pool donor-region embeddings,
 4. build donor-level or patient-level graphs,
 5. cluster patient embeddings and test associations with clinical outcomes.
-
-See [docs/pipeline.md](/c:/Users/USER/Biomed/AD/GraphSAGE_pre/docs/pipeline.md) and [docs/reproducibility.md](/c:/Users/USER/Biomed/AD/GraphSAGE_pre/docs/reproducibility.md) for implementation details.
